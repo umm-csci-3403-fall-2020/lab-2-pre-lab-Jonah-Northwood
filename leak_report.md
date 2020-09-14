@@ -1,3 +1,3 @@
 # Leak report
 
-_Use this document to describe whatever memory leaks you find in `clean_whitespace.c` and how you might fix them. You should also probably remove this explanatory text._
+# The memory error happens because the memory allocated is never freed. To fix this we need to find when the allocated memory isn't needed anymore and free it.
